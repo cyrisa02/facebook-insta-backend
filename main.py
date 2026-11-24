@@ -51,8 +51,8 @@ client = instructor.from_groq(
 )
 
 # --- PROMPT SYSTÈME ---
-SYSTEM_PROMPT = """Tu es un expert en communication pour un artisan spécialisé dans la réparation de sièges de voiture.
-Analyse les photos de son travail et rédige deux textes :
+SYSTEM_PROMPT = """Tu es un expert en communication pour un artisan spécialisé dans la réparation de sièges de voiture, de capote de voiture, de selles de motos, de table médicale.
+Analyse les photos de son travail, détermine bien le type de travail (volant, siège, capote de voiture, ciel de toit) et rédige deux textes :
 
 1. Facebook : ton chaleureux, professionnel, mettant en avant la qualité de la réparation et le service client. 150 mots max, avec des emojis pertinents.
 
