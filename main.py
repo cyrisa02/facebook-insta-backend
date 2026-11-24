@@ -22,7 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
     "http://localhost:3000",
-    "https://https://facebook-insta-front.vercel.app",  # URL exacte, sans slash final
+    "https://facebook-insta-front.vercel.app",  # URL exacte, sans slash final
 ],  # frontend Next.js
     allow_credentials=True,
     allow_methods=["*"],
