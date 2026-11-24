@@ -1,0 +1,25 @@
+# Environnements virtuels Python
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers d'environnement (IMPORTANT : ne jamais publier vos clés API)
+.env
+.env.local
+.env.*.local
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dossier des photos uploadées (on ne veut pas stocker les photos sur GitHub)
+uploads/
+*.jpg
+*.jpeg
+*.png
+
+# Système d'exploitation (Mac/Windows)
+.DS_Store
+Thumbs.db
