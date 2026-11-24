@@ -20,7 +20,10 @@ app = FastAPI(title="Atelier Seats AI API")
 # --- CONFIGURATION CORS ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://facebook-insta-front-ldn8eghm6-cyril-gourdons-projects.vercel.app/"],  # frontend Next.js
+    allow_origins=[
+    "http://localhost:3000",
+    "https://https://facebook-insta-front.vercel.app",  # URL exacte, sans slash final
+],  # frontend Next.js
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
